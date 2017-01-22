@@ -12,6 +12,9 @@
 		D22CF9BC1E3482F8007E7635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22CF9BA1E3482F8007E7635 /* Main.storyboard */; };
 		D22CF9BE1E3482F8007E7635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22CF9BD1E3482F8007E7635 /* Assets.xcassets */; };
 		D22CF9C11E3482F8007E7635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22CF9BF1E3482F8007E7635 /* LaunchScreen.storyboard */; };
+		D22CF9C91E348914007E7635 /* RYMyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CF9C81E348914007E7635 /* RYMyModalViewController.swift */; };
+		D22CF9CB1E348F0A007E7635 /* CustomModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CF9CA1E348F0A007E7635 /* CustomModalTransition.swift */; };
+		D22CF9CD1E3495C9007E7635 /* RYMyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CF9CC1E3495C9007E7635 /* RYMyTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D22CF9BD1E3482F8007E7635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22CF9C01E3482F8007E7635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22CF9C21E3482F8007E7635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22CF9C81E348914007E7635 /* RYMyModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYMyModalViewController.swift; sourceTree = "<group>"; };
+		D22CF9CA1E348F0A007E7635 /* CustomModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModalTransition.swift; sourceTree = "<group>"; };
+		D22CF9CC1E3495C9007E7635 /* RYMyTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYMyTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				D22CF9B61E3482F8007E7635 /* AppDelegate.swift */,
 				D22CF9B81E3482F8007E7635 /* ViewController.swift */,
+				D22CF9C81E348914007E7635 /* RYMyModalViewController.swift */,
 				D22CF9BA1E3482F8007E7635 /* Main.storyboard */,
+				D22CF9CC1E3495C9007E7635 /* RYMyTransition.swift */,
+				D22CF9CA1E348F0A007E7635 /* CustomModalTransition.swift */,
 				D22CF9BD1E3482F8007E7635 /* Assets.xcassets */,
 				D22CF9BF1E3482F8007E7635 /* LaunchScreen.storyboard */,
 				D22CF9C21E3482F8007E7635 /* Info.plist */,
@@ -90,6 +99,7 @@
 		D22CF9AB1E3482F8007E7635 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RY;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Yury Radchenko";
@@ -138,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D22CF9B91E3482F8007E7635 /* ViewController.swift in Sources */,
+				D22CF9CD1E3495C9007E7635 /* RYMyTransition.swift in Sources */,
+				D22CF9CB1E348F0A007E7635 /* CustomModalTransition.swift in Sources */,
+				D22CF9C91E348914007E7635 /* RYMyModalViewController.swift in Sources */,
 				D22CF9B71E3482F8007E7635 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
